@@ -1,0 +1,37 @@
+{
+  "name": "pi_nodejs_relay",
+  "version": "1.0.0",
+  "description": "IoT Garage door opener",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scott-Ain/pi_nodejs_GarageDoor.git"
+  },
+  "keywords": [
+    "google assistant",
+    "raspberry",
+    "pi",
+    "python",
+    "node.js"
+  ],
+  "author": "Scott Ainslie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scott-Ain/pi_nodejs_GarageDoor/issues"
+  },
+  "homepage": "https://github.com/Scott-Ain/pi_nodejs_GarageDoor#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "python-shell": "^0.4.0"
+  },
+  "devDependencies": {
+    "locus": "^1.2.0"
+  }
+}
