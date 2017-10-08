@@ -22,16 +22,16 @@ curl --data "" http://youripaddress:8000/API/garages/door1?password='yourpasswor
 Configure the Python files to suit your needs and the GPIO pins you used. 
 
 ### Auto start on boot
-Install the forever service
+Install the forever service.
   sudo npm install forever -g
   sudo npm install forever-service -g
 
-cd into your project directory to create your service
+cd into your project directory to create your service.
   sudo forever-service install GarageDoor
 
   sudo nano /etc/rc.local
 
-Add this to the end of the file but before exit 0
+Add this to the end of the file but before exit 0.
   sudo service GarageDoor start
 
 
