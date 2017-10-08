@@ -11,9 +11,9 @@ If you haven't already, install git and node.js on your device.
     * `PASS=` Whatever you want your password to be
 5. Run `npm start` to launch the server
 
-When you make a POST request to the server, follow this structure: 
+When you make a POST request to the server, follow this structure:
 `http://ipaddresshere/API/switches/door1?password=yourpassword`
-Curl ona linux box is great for this
+Curl on a linux box is great for this.
 eg:
 curl --data "" http://youripaddress:8000/API/garages/door1?password='yourpassword'
 
